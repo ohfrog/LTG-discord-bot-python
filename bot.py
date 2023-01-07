@@ -13,6 +13,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    # replace the "!hello" to whatever you want the bot to react
     if message.content.startswith('!hello'):
         await message.channel.send("You are a worthless bitch-ass nigga. Your life literally is as valuable as a summer ant." 
            "I'm just gonna stomp you, you're gonna keep coming back, I'm gonna seal up all my cracks,"
